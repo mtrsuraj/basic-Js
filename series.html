@@ -1,0 +1,35 @@
+ number series
+<html>
+     <head>
+         <title>JavaScript Program to find the number series</title>
+    </head>
+    
+    <body>
+             <table>
+                 <tr>
+                   
+                     <td> <input type="number" name="a" id="first" placeholder="enter number"/> </td>
+                </tr>
+               
+               <tr>
+                    <td> <button onclick = "simple()" >Submit</button> </td>
+                </tr>
+            </table>
+        <script>
+          function simple()
+          {
+          var a=0,b=1,c;
+          d = document.getElementById ("first").value;
+          for(let i=1;i<=d;i++)
+          {
+              c=parseInt(a)+parseInt(b);
+              a=b;
+              b=c;
+              document.getElementById (c);
+          }
+        }
+    </script>
+          </body>
+
+
+</html>
